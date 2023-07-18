@@ -82,7 +82,28 @@
         font-size: 14px;
         padding: 8px 16px;
     }
+    
+    
+    .cards{
+        grid-template-columns: 1fr;
 
+    }
 
+    .online-games-title {
+        font-size: 36px;
+
+    }
+
+    .online{
+        font-size: 36px;
+    }
+
+    .online-games-description{
+        font-size: 10px;
+    }
+   
+    .card-description{
+        font-size: 18px;
+    }
     
 }
