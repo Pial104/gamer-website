@@ -1,0 +1,7 @@
+@media screen and (max-width:576px) {
+    .navbar-container, .menu-container > ul{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    
+}
