@@ -9,6 +9,8 @@
 
 .navbar-container{
     display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
     justify-content: space-around;
     align-items: center;
     height: 100px;
@@ -17,6 +19,7 @@
 }
 
 .logo-container{
+    width: 50%;
     display: flex;
     object-fit: cover;
     align-items: center;
@@ -32,7 +35,7 @@
 
 .logo-container h3{
     color: #0B0223;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-family: 'Work Sans', sans-serif;
@@ -41,7 +44,7 @@
 }
 .menu-container{
     display: flex;
-
+    width: 50%;
     justify-content: space-around;
     align-items: center;
  
@@ -49,14 +52,16 @@
  
 
 }
-.menu-container > ul{
+.nav-links{
     display: flex;
+    gap: 15px;
    
 }
 
 .menu-container  li{
     list-style: none;
     margin-left: 20px;
+  
     
 }
 
@@ -72,12 +77,11 @@
      width: 200px;
      height: 55px;
     align-items: center;
-
     background: rgba(11, 2, 35, 0.10);
      border-radius: 8px;
     display: flex;
     gap: 10px;
-    margin-left: 20px;
+    
   
   
 }
@@ -88,4 +92,81 @@
 .fa-brands{
      font-size: 22px;
      
+}
+
+/* banner section start */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    object-fit: cover;
+  
+  
+}
+
+.banner-text{
+    width: 900px;
+    height: 700px;
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.banner-text h1{
+    color: #0B0223;
+font-size: 48px;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Work Sans', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+}
+.goat{
+    background-image: linear-gradient(#F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+} 
+
+.banner-text p{
+    padding:0;
+    color: #534C64;
+    font-size: 20px;
+    font-family: Work Sans;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.btn-primary{
+    background-color: #FF42A5;
+    color: white;
+    font-size: 20px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.go-rogue{
+  background-color: #4EC5F7;
+  color: white;
+  font-size: 20px;
+  font-family: Work Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
 }
