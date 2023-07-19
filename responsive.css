@@ -111,6 +111,8 @@
         margin: 40px auto 0;
     }
     
+    
+    }
     .first-img{
         width: 100%;
         height: auto;
@@ -132,5 +134,13 @@
         margin-top: 20px;
     }
 
+    .small-img-container{
+        display: grid; 
+        background: #FFFFFF;
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    
     
 }
