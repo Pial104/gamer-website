@@ -1,4 +1,5 @@
 @media screen and (max-width:576px) {
+
     .navbar-container{
         flex-direction: column;
         height: auto;
@@ -112,7 +113,7 @@
     }
     
     
-    }
+   
     .first-img{
         width: 100%;
         height: auto;
@@ -139,8 +140,160 @@
         background: #FFFFFF;
 }
 
-@media screen and (min-width:576px) and (max-width:992px) {
+.footer-title-container{
+    flex-direction: column;
 
+}
+
+.description {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.description ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons{
+    margin: 0;
+    justify-content: center;
+}
+
+.icons .fa-brands {
+    padding: 15px;
+}
+
+.copyright {
+   margin: 0;
+   text-align: center;
+}
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-container {
+        margin-bottom:20px ;
+    }
+
+    .nav-links{
+        flex-direction: column;
+    }
+
+    .nav-links li  {
+        margin: 10px 0;
+    }
+
+    .follow-us{
+        margin-top: 20px;
+    }
+
+    .banner-container{
+        padding: 50px 20px;
+    }
+
+    .banner-text{
+        text-align: center;
+    }
+
+    .banner-images{
+        text-align: center;
+        margin-top: 20px;
+    }
     
-    
+    .online-games-title {
+        font-size: 1rem;
+    }
+    .online-games-description {
+        font-size: 16px;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    .play-instantly-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .first-img , .second-img{
+        width: 100%;
+    }
+
+    .instant-description{
+        margin-top: 20px;
+    }
+
+    .small-img-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .small-img {
+        text-align: center;
+    }
+
+    .small-description {
+        font-size: 14px;
+    }
+     
+    .footer-title-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-title {
+        font-size: 24px;
+    }
+
+    .description, .description.color{
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .icons {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .fa-brands{
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .color ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .color li {
+        list-style: none;
+    }
+
+    .copyright{
+        text-align: center;
+        margin: 20px;
+    }
+
 }
