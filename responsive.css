@@ -105,5 +105,32 @@
     .card-description{
         font-size: 18px;
     }
+
+    .play-instantly-container{
+        flex-direction: column;
+        margin: 40px auto 0;
+    }
+    
+    .first-img{
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .second-img{
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .instant-description{
+        text-align: center;
+        margin-top: 20px;
+    }
+
     
 }
